@@ -26,6 +26,3 @@ import * as sequences from './sequences';
 export {aux_inputs, chords, constants, data, logging, performance, sequences};
 
 export * from './midi_io';
-export * from './player';
-export * from './recorder';
-export * from './visualizer';

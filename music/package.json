@@ -60,6 +60,7 @@
     "test-node-build": "ts-node node_modules/tape/bin/tape build_tests/node.ts",
     "build-demos": "webpack --config ./webpack/es5.demo.config.ts",
     "run-demos": "webpack-dev-server --config ./webpack/es5.demo.config.ts",
+    "soundtrap": "yarn run-demos --demos=soundtrap",
     "serve-demos": "http-server demos/",
     "serve-dist": "http-server dist/",
     "proto": "sh ./scripts/compile-proto.sh",
